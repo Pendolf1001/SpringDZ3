@@ -11,4 +11,9 @@ public class NotificationService {
         System.out.println("A new user has been created: "+ user.getName());
     }
 
+    public void notifyAddingToRepository (User user){
+        System.out.println("In repository add: "+ user.getName());
+    }
+
+
 }

@@ -16,6 +16,10 @@ public class UserRepository {
         return users;
     }
 
+    public void addUser(User user){
+        users.add(user);
+    }
+
     public void setUsers(List<User> users) {
         this.users = users;
     }
