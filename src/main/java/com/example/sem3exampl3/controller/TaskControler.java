@@ -47,5 +47,5 @@ public class TaskControler {
         return service.calculateAverageAge(service.getUserRepository().getUsers());
     }
 
-    //metod calculateAverage GetMapping(/calc)
+
 }

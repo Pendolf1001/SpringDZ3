@@ -4,6 +4,8 @@ import com.example.sem3exampl3.domain.User;
 import com.example.sem3exampl3.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 
 @Service
 public class UserService {
@@ -33,6 +35,10 @@ public class UserService {
         notificationService.notifyAddingToRepository(user);
     }
 
+
+    public List<User> getListiUsers (){
+       return repository.getUsers();
+    }
 
 
 
